@@ -1,0 +1,13 @@
+body {
+    background-image: linear-gradient(45deg, #8181e4, rgb(75, 75, 161), rgb(64, 64, 121));
+}
+
+.tela {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pokedex{
+    border: 16px;
+}
