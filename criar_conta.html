@@ -3,11 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/Style_criar_conta.css">
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <h1>dois homens faz muita mudança</h1>
+    <!--tela-->
+    <div class="tela_criar_conta">
+
+        <!--dados_basic-->
+        <div class="dados_basic" id="dados_basic">
+            <input type="text" id="nome" placeholder="Nome"><br>
+            <input type="text" id="sobrenome" placeholder="Sobrenome"><br>
+            <input type="number" id="idade" placeholder="Idade"><br>
+            <input type="number" id="numero_de_telefone" placeholder="Numero de telefone">
+        </div>
+
+        <!--dados_de_login-->
+        <div class="dados_de_login" id="dados_de_login">
+            <input type="email" id="email" placeholder="Email"><br>
+            <input type="password" id="senha_para_confirmar" placeholder="Senha"><br>
+            <input type="password" id="confirmar_senha" placeholder="Confirmar a senha">
+        </div>
     </div>
 </body>
 </html>
