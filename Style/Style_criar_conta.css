@@ -13,7 +13,6 @@ body{
     height: 450px;
     padding: 7px;
     border-radius: 16px;
-    backdrop-filter: blur(10px);
 }
 /*dados_basic*/
 .dados_basic{
