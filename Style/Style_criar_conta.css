@@ -1,38 +1,88 @@
-body{
+body {
     display: flex;
-    background-image: linear-gradient(45deg, rgb(26, 21, 21), rgb(26, 21, 21),rgb(71, 60, 60));
+    background-image: linear-gradient(45deg, rgb(26, 21, 21), rgb(26, 21, 21), rgb(71, 60, 60));
 }
+
 /*testo*/
+.texto {
+    border: 10px;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
 
 
 /*tela_de_login*/
-.tela_criar_conta{
+.tela_criar_conta {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     background-color: rgba(170, 150, 150, 0.2);
-    width: 650px;
-    height: 450px;
+    width: 450px;
+    height: 250px;
     padding: 7px;
     border-radius: 16px;
 }
+
 /*dados_basic*/
-.dados_basic{
+.dados_basic {
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+/*dados_lb*/
+.dados_b{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+.dados_b:hover{
+    background-color: rgb(255, 255, 255);
+    transition: all 0.s ease-in-out;
+}
+
+
+/*dados_de_login*/
+.dados_de_login {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+/*buttons*/
+.btns {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.registra {
+    background-color: green;
+    border: none;
+    padding: 10px;
+    border-radius: 16px;
+    position: absolute;
+    top: 80%;
+    left: -10%;
     transform: translate(-50%,-50%);
 }
 
-/*dados_de_login*/
-.dados_de_login{
+.entra_btn {
     position: absolute;
-    top: 50%;
-    left: 65%;
+    top: 80%;
+    left: 170%;
     transform: translate(-50%,-50%);
-}
-/*buttons*/
-.btns{
-     
+    color: black;
+    border: none;
+    background-color: green;
+    padding: 10px;
+    display: flex;
+    border-radius: 16px;
+    text-decoration: none;
 }
