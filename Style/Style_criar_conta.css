@@ -68,20 +68,20 @@ body {
     padding: 10px;
     border-radius: 16px;
     position: absolute;
-    top: 80%;
-    left: -10%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%,-50%);
 }
 
 .entra_btn {
     position: absolute;
-    top: 80%;
-    left: 170%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%,-50%);
     color: black;
     border: none;
     background-color: green;
-    padding: 10px;
+    padding: 1px;
     display: flex;
     border-radius: 16px;
     text-decoration: none;
