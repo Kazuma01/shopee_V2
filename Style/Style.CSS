@@ -70,7 +70,7 @@ body{
 .btn1{
     
     display:block;
-    background-color:rgba(255, 255, 255, 0.863) ;
+    background-color:rgba(211, 186, 186, 0) ;
     margin-bottom: 5px;
     width: 100px;
     height: 30px;
@@ -79,11 +79,11 @@ body{
     border-radius: 0;
     cursor: pointer;
     transition: transform 100ms ease-in-out;
-    color: black;
-
+    color: rgb(104, 46, 46);
+    border-radius: 20px;
 }
 .btn1:hover {
-
+    border-radius: 30px;
     transition: 1s;
     color:#000000fd;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
