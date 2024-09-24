@@ -14,23 +14,54 @@
 
         <!--dados_basic-->
         <div class="dados_basic" id="dados_basic">
-            <input class="dados_b" type="text" id="nome" placeholder="Nome"><br>
-            <input class="dados_b" type="text" id="sobrenome" placeholder="Sobrenome"><br>
-            <input class="dados_b" type="number" id="idade" placeholder="Idade"><br>
-            <input class="dados_b" type="number" id="numero_de_telefone" placeholder="Numero de telefone">
+            <!--nome-->
+            <div class="dados_b">
+                <input type="text" id="nome" name="" required maxlength="15" placeholder="Nome">
+                <label for="Nome"></label>
+            </div>
+
+            <!--sobrenome-->
+            <div class="dados_b">
+                <input type="text" id="sobrenome" placeholder="Sobrenome" required maxlength="70">
+                <label for="Sobrenome"></label>
+            </div>
+
+            <!--idade-->
+            <div class="dados_b">
+                <input type="number" id="idade" placeholder="Idade" required min="0">
+                <label for="Idade"></label>
+            </div>
+
+            <!--numero_de_telefone-->
+            <div class="dados_b">
+                <input type="number" id="numero_de_telefone" placeholder="Numero de telefone" required maxlength="11">\
+                <label for="Numero"></label>
+            </div>
         </div>
 
         
         <!--dados_de_login-->
         <div class="dados_de_login" id="dados_de_login">
-            <input class="dados_b" type="email" id="email" placeholder="Email"><br>
-            <input class="dados_b" type="password" id="senha_para_confirmar" placeholder="Senha"><br>
-            <input class="dados_b" type="password" id="confirmar_senha" placeholder="Confirmar a senha">
+            <!--email-->
+            <div class="dados_b">
+                <input type="email" id="email" required placeholder="email" required maxlength="40"><br>
+                <label for="Email"></label>
+            </div>
+            <!--senha-->
+            <div class="dados_b">
+                <input type="password" id="senha_para_confirmar" placeholder="Senha" required maxlength="16"><br>
+                <label for="Senha"></label>
+            </div>
+            <!--comfirma senha-->
+            <div class="dados_b">
+                <input type="password" id="confirmar_senha" placeholder="Confirmar a senha" required maxlength="16">
+                <label for="Confirmar senha"></label>
+            </div>
         </div>
         <!--buttons-->
         <div class="btns">
-            <input type="button" value="Registra" class="registra">
-            <a href="./index.HTML" class="entra_btn">Entra</a>
+            <button class="registra">Registra</button>
+            <a class="entra_btn " href="./index.HTML">Entra</a>
         </div>
     </div>
 </body>
